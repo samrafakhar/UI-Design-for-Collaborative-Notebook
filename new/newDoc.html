@@ -1,0 +1,101 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src= "https://smtpjs.com/v3/smtp.js"></script>
+<script src="newDoc.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script><script  src="./script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://codepen.io/supermishboy/pen/bpJMRa'><link rel="stylesheet" href="./style.css">
+<meta charset='utf-8'>
+</head>
+<title>New Document</title>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="newDoc.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="icon"><img src="1.png"/></div><div id="title">&nbsp;&nbsp;&nbsp;<b>New Document</b><div class="fuck">
+<a href="#"><button id = 'new'><img src="ear.svg" alt=""/></button></a> 
+&nbsp;&nbsp;&nbsp;
+<a href="#"><button id = 'save'><img src="check.svg" alt=""/></button></a> 
+&nbsp;&nbsp;&nbsp;
+<a href="#"><button id = 'delete'><img src="trash_white.svg" alt=""/></button></a> 
+&nbsp;&nbsp;&nbsp;
+<button class="btn-open"><img src="down_white.svg" alt=""/></button>
+&nbsp;&nbsp;&nbsp;
+<a href="email\invite.html"><button id = 'share'><img src="person_white.svg" alt=""/></button></a> 
+&nbsp;
+</div></div>
+
+<nav id="menu" class="menu">
+        <div class="action">
+
+<button>
+<select id="select_font" onchange="changeFont(this);">
+  <option value="Arial">Arial</option>
+  <option value="Sans Serif" selected>Sans Serif</option>
+  <option value="Comic Sans MS">Comic Sans MS</option>
+  <option value="Times New Roman">Times New Roman</option>
+  <option value="Courier New">Courier New</option>
+  <option value="Verdana">Verdana</option>
+  <option value="Trebuchet MS">Trebuchet MS</option>
+  <option value="Arial Black">Arial Black</option>
+  <option value="Impact">Impact</option>
+  <option value="Bookman">Bookman</option>
+  <option value="Garamond">Garamond</option>
+  <option value="Palatino">Palatino</option>
+  <option value="Georgia">Georgia</option>
+</select>
+
+
+<select id="fontSize" onclick="changeSize()">
+        <option value="1">10</option>      
+        <option value="2">11</option>
+        <option value="3">12</option>
+        <option value="4">16</option>
+        <option value="5">20</option>
+        <option value="6">22</option>
+        <option value="7">24</option>
+        <option value="8">36</option>
+      </select>
+      </button>
+
+
+      <div id='bigscreen'>               
+             <a href="#" ><button id = 'bold'><img src="bold.svg" alt=""/></button></a>
+             <a href="#" ><button id = 'italic' ><img src="italic.svg" alt=""/></button></a>
+             <a href="#" ><button id = 'underline'><img src="underline.svg" alt=""/></button></a>
+             <!--<a href="#"><button id = 'strikethrough'><img src="strikethrough.svg" alt=""/></button></a> -->
+             <a href="#"><button id = 'left'><img src="left.svg" alt=""/></button></a> 
+             <a href="#"><button id = 'center'><img src="center.svg" alt=""/></button></a> 
+             <a href="#"><button id = 'right'><img src="right.svg" alt=""/></button></a> 
+             <a href="#"><button id = 'just'><img src="just.svg" alt=""/></button></a> 
+             <a href="#"><button id = 'number'><img src="l1.svg" alt=""/></button></a> 
+             <a href="#"><button id = 'bullet'><img src="l2.svg" alt=""/></button></a> 
+        </div>
+        </div>
+</nav>
+<div class="modal-wrapper">
+  <div class="modal">
+    <div class="btn-close"></div>
+    <div class="clear"></div>
+    <div class="content">
+        <div class = "down"><button onclick="downloadInnerHtml('download.txt', 'fake_textarea')">download as .txt</button>
+        <button onclick="downloadInnerHtml('download.html', 'fake_textarea')">download as .html</button>
+       <button onclick="downloadInnerHtml('download.doc', 'fake_textarea')">download as .docx</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- just add "btn-open" class to any element to trigger popup-->
+  <div class="container">
+         <div id='fake_textarea' contenteditable></div>
+  </div>
+
+  
+</body>
+</html>

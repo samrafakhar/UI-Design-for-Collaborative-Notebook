@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+* {
+    font-family: 'quicksand', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #f7f7f7;
+}
+
+.lol ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ebebeb;
+}
+
+#title {
+    color: #389583;
+    font-size: 20px;
+    padding-top: 24px;
+    font-weight: 200;
+}
+
+.icon img {
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 75px;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 820px;
+    margin: 0px auto;
+    margin-top: 35px;
+    margin-bottom: 150px;
+    height: auto;
+    background-color: #f7f7f7;
+}
+
+#fake_textarea {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.textinput {
+    float: left;
+    width: 100%;
+    height: 900px;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+
+@media (max-width: 1050px) {
+    .container {
+        margin-top: 50px;
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 862px) {
+    .container {
+        margin-top: 50px;
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 660px) {
+    .container {
+        margin-top: 150px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 530px) {
+    .container {
+        margin-top: 50px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        margin-top: 50px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin-top: 50px;
+        max-width: 275px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        margin-top: 50px;
+        max-width: 225px;
+    }
+}
+
+.w3-container {
+    background-color: #053868;
+}
+
+.action select {
+    margin: 0px 0px;
+}
+
+.action img {
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    max-width: 55em;
+}
+
+p a {
+    color: rgb(41, 183, 206);
+    text-decoration: none;
+}
+
+strong {
+    color: rgb(41, 183, 206);
+}
+
+nav {
+    font-size: 12px;
+    background-color: #053868;
+    box-shadow: 0 1px 2px rgba(19, 51, 61, 0.5);
+    margin: 30px 0px;
+    padding: 0 0;
+    height: 44px;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-height: 88px;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav button {
+    display: inline-block;
+    color: rgb(236, 236, 236);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 44px;
+    height: 44px;
+    background-color: #053868;
+    border: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.menu a {
+    display: inline-block;
+}
+
+.menu button {
+    display: inline-block;
+}
+
+.menu {
+    text-align: center;
+    float: none;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    padding: 0 1em;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.box {
+    position: relative;
+    margin-right: 10px;
+}
+
+.box select {
+    background-color: #053868;
+    color: white;
+    width: auto;
+    height: 44px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-size: 12px;
+}
+
+.box select option {
+    padding: 30px;
+}
+
+.dropdown-content a:hover {
+    background-color: #389583;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #053868;
+    color: white;
+    width: auto;
+    height: 44px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-size: 12px;
+}
+
+.dropdown-content a {
+    background-color: #053868;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #389583;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fuck {
+    float: right;
+}
+
+.fuck button {
+    background-color: #053868;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(19, 51, 61, 0.5);
+}
+
+@media (max-width: 760px) {
+    .fuck {
+        float: center;
+    }
+    .fuck button {
+        padding: 8px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 365px) {
+    nav {
+        margin-top: 75px;
+    }
+}
+
+.down button {
+    background-color: #389583;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    width: 250px;
+    cursor: pointer;
+    margin: 20px 12px;
+}
+
+.down button:hover {
+    background-color: #053868;
+}
